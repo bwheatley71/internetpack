@@ -9,7 +9,7 @@
     <CrossPlatform>True</CrossPlatform>
     <OutputPathUsesSubModes>True</OutputPathUsesSubModes>
     <OutputPathUsesModes>True</OutputPathUsesModes>
-    <SuppressWarnings>CPW8</SuppressWarnings>
+    <SuppressedWarnings>CPW8</SuppressedWarnings>
     <MangleTypeNames>True</MangleTypeNames>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -17,7 +17,7 @@
     <EnableAsserts>True</EnableAsserts>
     <Optimize>False</Optimize>
     <GenerateDebugInfo>True</GenerateDebugInfo>
-    <DefineConstants>DEBUG;TRACE;</DefineConstants>
+    <ConditionalDefines>DEBUG;TRACE;</ConditionalDefines>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <OutputPath>.\Bin\Release</OutputPath>
